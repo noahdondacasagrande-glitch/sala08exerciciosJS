@@ -4,18 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>teste</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Cáculos</h1>
-    <br>
-    <div>
-        <h2>SOMA</h2>
-        <label for="n1">primeiro numero</label>
-        <input type="number" id="n1">   
-        <label for="n2">segundo numero</label>
-        <input type="number" id="n2">
-        <button onclick="somar()" id="botao">SOMAR</button> 
-        <p id="resposta"></p>  
-    </div>
+    
+        <div>
+            <h2>SOMA</h2>
+            <label for="n1">primeiro numero</label>
+            <input type="number" id="n1">   
+            <label for="n2">segundo numero</label>
+            <input type="number" id="n2">
+            <button onclick="somar()" >SOMAR</button> 
+            <p id="resposta"></p>  
+        </div>
+        
+        <div>
+            <h2>SUBTRAÇÂO</h2>
+            <label for="n5">primeiro numero</label>
+            <input type="number" id="n5">   
+            <label for="n6">segundo numero</label>
+            <input type="number" id="n6">
+            <button onclick="subtração()">SOMAR</button> 
+            <p id="respostaS"></p> 
+        </div>
+
+        <div>
+            <h2>DIVISÂO</h2>
+            <label for="n7">primeiro numero</label>
+            <input type="number" id="n7">   
+            <label for="n8">segundo numero</label>
+            <input type="number" id="n8">
+            <button onclick="divisão()">SOMAR</button> 
+            <p id="respostaD"></p>  
+        </div>
+        <div>
+            <h2>MULTIPLICAÇÂO</h2>
+            <label for="n3">primeiro numero</label>
+            <input type="number" id="n3">   
+            <label for="n4">segundo numero</label>
+            <input type="number" id="n4">
+            <button onclick="mult()">SOMAR</button> 
+            <p id="respostaM"></p>  
+        </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
