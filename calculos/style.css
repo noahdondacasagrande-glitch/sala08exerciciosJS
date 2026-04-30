@@ -29,11 +29,33 @@ div {
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     gap: 2vh;
     width: 250px;
     height: 300px;
+    min-height: 300px;
+    max-height: 300px;
+    transition: all 200ms ease-in-out;
+    margin: 20px;
 }
+
+div:hover{
+    box-shadow: rgba(252, 0, 0, 0.326) -5px 5px, rgba(47, 255, 0, 0.186) -10px 10px, rgba(30, 255, 0, 0.202) -15px 15px, rgba(0, 255, 221, 0.26) -20px 20px, rgba(38, 0, 255, 0.211) -25px 25px;
+    transform: scale(1.1)
+}
+p{
+    width: 50px;
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+    font-size: 30px;
+}
+
 main{
     display: flex;
     align-items: center;
@@ -82,4 +104,9 @@ button:hover{
 
 }
 
+h1 h2{
+    font-family: "Playwrite NO", cursive;
+}
+h1{
 
+}
