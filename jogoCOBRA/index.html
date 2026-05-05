@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="../calculos/">Calculos</a>
+        <a href="../calculadoreGPT/">calculadoreGPT</a>
+        <a href="../Media/">Media</a>
+        <a href="../jogoCOBRA/">JOGODACOBRA</a>
+        <a href="../bootstrap5/">bootstrap5</a>
+    </nav>
+
+    <div id="menu">
+        <h1>Snake Game 🐍</h1>
+        <button onclick="startGame()">Jogar</button>
+    </div>
+
+    <div id="gameContainer" class="hidden">
+        <h1>Snake Game 🐍</h1>
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <p>Pontuação: <span id="score">0</span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
