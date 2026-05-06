@@ -5,13 +5,15 @@
 }
 
 nav{
+    display: flex;
     position: fixed;
     width: 100%;
-    padding: 30px;
+    padding: 15px;
     background-color: aliceblue;
     top: 0;
     box-shadow: 0px 3px 10px #000000;
     justify-content: center;
+    align-items: center;
     gap: 20px;
     animation: formTop 500ms ease-in-out;
 
@@ -32,7 +34,7 @@ a{
     opacity: 0.5;
     font-weight: 900;
     transition: all 500ms ease-in-out;
-
+    padding: 10px;
 }
 a:hover{
     cursor: pointer;
@@ -83,5 +85,5 @@ button:hover{
 p{
     background-color: #ffff;
     border-radius: 10px;
-    padding: ;
+
 }

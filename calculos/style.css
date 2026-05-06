@@ -1,6 +1,5 @@
 *{
     margin: 0%;
-    padding: 0;
     box-sizing: border-box;
 
 }
@@ -111,6 +110,7 @@ h1{
     font-size: 40px;
 }
 nav{
+    display: flex;
     position: fixed;
     width: 100%;
     padding: 15px;
@@ -139,7 +139,7 @@ a{
     opacity: 0.5;
     font-weight: 900;
     transition: all 500ms ease-in-out;
-
+    padding: 10px;
 }
 a:hover{
     cursor: pointer;
